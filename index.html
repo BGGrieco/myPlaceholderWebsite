@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Brian Grieco – Creative Web Developer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <style>
+      #container
+      {
+        position: absolute;
+        width: 100%;
+      }
+
+      object
+      {
+        display: block;
+        margin: auto;
+        width: 80%;
+        height: 1000px;
+        top: 50px
+      }
+
+      @media (max-width: 600px)
+      {
+        object
+        {
+          display: block;
+          margin: auto;
+          width: 100%;
+          top: 50px
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <object data="BrianGrieco_CV.pdf"></object>
+    </div>
+  </body>
+</html>
