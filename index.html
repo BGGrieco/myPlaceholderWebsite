@@ -4,6 +4,7 @@
     <title>Brian Grieco – Creative Web Developer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <style>
       #container
@@ -12,29 +13,44 @@
         width: 100%;
       }
 
+      #text
+      {
+        position: relative;
+        display: block;
+        margin: auto;
+        text-align: center;
+        width: 90%;
+        color: #4a86e8;
+        font-family: arial;
+      }
+
       object
       {
+        position: relative;
         display: block;
         margin: auto;
         width: 80%;
         height: 1000px;
-        top: 50px
       }
 
       @media (max-width: 600px)
       {
         object
         {
+          position: relative;
           display: block;
           margin: auto;
           width: 100%;
-          top: 50px
         }
       }
     </style>
   </head>
   <body>
     <div id="container">
+      <div id="text">
+        <h1>HELLO!</h1>
+        <h2>This is a place holder I am using while I develop my website.<br><br>Thanks for dropping by!</h2>
+      </div>
       <object data="BrianGrieco_CV.pdf"></object>
     </div>
   </body>
